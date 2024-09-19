@@ -1,0 +1,128 @@
+.spaceBetweenClass {
+    display: flex;
+    flex-direction: row;
+    width: 25vw;
+    justify-content: space-between;
+}
+
+.errorMessage {
+    font-size: 14px;
+    color: orangered;
+    font-weight: bold;
+    margin-left: 0.3rem;
+}
+
+.widthSetter {
+    width: 25vw;
+}
+
+.termsAndConditionErrorSetter {
+    padding-left: 1.5rem !important;
+
+}
+
+.termsAndConditionErrorSetter>span {
+    margin-left: 0.0rem !important;
+}
+
+@media only screen and (max-width:1300px) and (min-width:1100px) {
+    .spaceBetweenClass {
+        width: 35vw;
+    }
+
+    .widthSetter {
+        width: 30vw;
+    }
+}
+
+@media only screen and (max-width:1099px) and (min-width:992px) {
+    .spaceBetweenClass {
+        width: 38vw;
+    }
+
+    .widthSetter {
+        width: 33vw;
+    }
+}
+
+@media only screen and (max-width:991px) and (min-width:768px) {
+    .spaceBetweenClass {
+        width: 42vw;
+    }
+
+    .widthSetter {
+        width: 37vw;
+    }
+}
+
+@media only screen and (max-width:767px) and (min-width:550px) {
+    .spaceBetweenClass {
+        width: 55vw;
+    }
+
+    .widthSetter {
+        width: 50vw;
+    }
+}
+
+@media only screen and (max-width:549px) and (min-width:410px) {
+    .spaceBetweenClass {
+        width: 60vw;
+    }
+
+    .spaceBetweenClass>button {
+        margin-bottom: 0.5rem !important;
+    }
+
+    .widthSetter {
+        width: 55vw;
+    }
+
+    .padding-removed {
+        padding: 0.5rem !important;
+        font-size: 0.9rem !important;
+    }
+
+    .checkboxLabel>.form-check>label {
+        font-size: 0.9rem !important;
+    }
+
+    .checkboxLabel {
+        margin-bottom: 0.8rem !important;
+    }
+
+    .errorMessage {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width:409px) and (min-width:0px) {
+    .spaceBetweenClass {
+        width: 55vw;
+    }
+
+    .spaceBetweenClass>button {
+        margin-bottom: 0.3rem !important;
+    }
+
+    .widthSetter {
+        width: 48vw;
+    }
+
+    .padding-removed {
+        padding: 0.4rem !important;
+        font-size: 0.8rem !important;
+    }
+
+    .checkboxLabel>.form-check>label {
+        font-size: 0.8rem !important;
+    }
+
+    .checkboxLabel {
+        margin-bottom: 0.8rem !important;
+    }
+
+    .errorMessage {
+        font-size: 13px;
+    }
+}

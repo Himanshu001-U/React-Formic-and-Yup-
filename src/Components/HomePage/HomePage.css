@@ -1,0 +1,21 @@
+.merger {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+    margin: 0rem auto;
+}
+
+@media only screen and (max-width:549px) and (min-width:0px) {
+
+    .badgeText {
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .logoutButton {
+        padding: 0.3rem !important;
+        font-weight: bold;
+    }
+}
